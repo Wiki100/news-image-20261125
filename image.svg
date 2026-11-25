@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <style>
+      .title { font-family: "Noto Sans", "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 62px; font-weight: 700; fill: #ffffff; letter-spacing: 2px; }
+      .date { font-family: "Noto Sans", "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 30px; font-weight: 700; fill: #e8b44a; letter-spacing: 1px; }
+      .day { font-family: "Noto Sans", "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 20px; font-weight: 700; fill: #9fb0c3; letter-spacing: 4px; }
+      .sub { font-family: "Noto Sans", "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 21px; font-weight: 400; fill: #9fb0c3; }
+      .tag { font-family: "Noto Sans", "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 17px; font-weight: 700; letter-spacing: 2px; }
+      .head { font-family: "Noto Sans", "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 27px; font-weight: 700; fill: #ffffff; }
+      .body { font-family: "Noto Sans", "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 19px; font-weight: 400; fill: #c3d0de; }
+      .foot { font-family: "Noto Sans", "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 16px; font-weight: 400; fill: #7e93a8; }
+    </style>
+  </defs>
+
+  <rect width="1024" height="1024" fill="#0d1b2e"/>
+
+  <!-- Header -->
+  <rect x="24" y="36" width="64" height="8" fill="#e8b44a"/>
+  <text x="24" y="102" class="title">WORLD NEWS</text>
+  <text x="1000" y="86" class="date" text-anchor="end">25 NOVEMBER 2026</text>
+  <text x="1000" y="116" class="day" text-anchor="end">WEDNESDAY</text>
+  <text x="24" y="142" class="sub">Six stories from one day — as reported on 25 November 2026</text>
+  <rect x="24" y="160" width="976" height="2" fill="#243b57"/>
+
+  <!-- Card 1: Space -->
+  <g>
+    <rect x="24" y="176" width="480" height="252" rx="10" fill="#16283f"/>
+    <rect x="24" y="176" width="8" height="252" fill="#7cc4ff"/>
+    <circle cx="76" cy="228" r="30" fill="#7cc4ff" fill-opacity="0.18" stroke="#7cc4ff" stroke-width="2"/>
+    <g transform="translate(58,210)">
+      <path d="M30 6 L38 26 L34 44 L26 44 L22 26 Z" fill="#7cc4ff"/>
+      <circle cx="30" cy="24" r="5" fill="#0d1b2e"/>
+      <path d="M22 34 L14 44 L22 42 Z" fill="#7cc4ff"/>
+      <path d="M38 34 L46 44 L38 42 Z" fill="#7cc4ff"/>
+      <path d="M26 46 L30 58 L34 46 Z" fill="#ff9f5a"/>
+    </g>
+    <text x="120" y="222" class="tag" fill="#7cc4ff">SPACE</text>
+    <text x="48" y="296" class="head">Shenzhou-24 lifts off with</text>
+    <text x="48" y="328" class="head">Pakistan's first astronaut</text>
+    <text x="48" y="366" class="body">China launches three crew to its</text>
+    <text x="48" y="390" class="body">Tiangong station; Muhammad Zeeshan</text>
+    <text x="48" y="414" class="body">Ali is the first foreign astronaut aboard.</text>
+  </g>
+
+  <!-- Card 2: Markets -->
+  <g>
+    <rect x="520" y="176" width="480" height="252" rx="10" fill="#16283f"/>
+    <rect x="520" y="176" width="8" height="252" fill="#f2b544"/>
+    <circle cx="572" cy="228" r="30" fill="#f2b544" fill-opacity="0.18" stroke="#f2b544" stroke-width="2"/>
+    <g transform="translate(554,210)" stroke="#f2b544" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="10,18 22,28 32,22 50,40"/>
+      <circle cx="10" cy="18" r="3" fill="#f2b544" stroke="none"/>
+      <circle cx="50" cy="40" r="3" fill="#f2b544" stroke="none"/>
+    </g>
+    <text x="616" y="222" class="tag" fill="#f2b544">MARKETS</text>
+    <text x="544" y="296" class="head">Asian stocks slide as</text>
+    <text x="544" y="328" class="head">the AI rally fades</text>
+    <text x="544" y="366" class="body">Nikkei falls nearly 3% and Nvidia</text>
+    <text x="544" y="390" class="body">drops about 6% as a new US tariff</text>
+    <text x="544" y="414" class="body">probe looms over markets.</text>
+  </g>
+
+  <!-- Card 3: Middle East -->
+  <g>
+    <rect x="24" y="444" width="480" height="252" rx="10" fill="#16283f"/>
+    <rect x="24" y="444" width="8" height="252" fill="#ff7a6b"/>
+    <circle cx="76" cy="496" r="30" fill="#ff7a6b" fill-opacity="0.18" stroke="#ff7a6b" stroke-width="2"/>
+    <g transform="translate(58,478)">
+      <path d="M30 8 C38 22 46 30 46 40 A16 16 0 1 1 14 40 C14 30 22 22 30 8 Z" fill="#ff7a6b"/>
+    </g>
+    <text x="120" y="490" class="tag" fill="#ff7a6b">MIDDLE EAST</text>
+    <text x="48" y="564" class="head">Houthis say they hit a</text>
+    <text x="48" y="596" class="head">Saudi oil refinery</text>
+    <text x="48" y="634" class="body">Yemen's Houthis say they attacked</text>
+    <text x="48" y="658" class="body">the Ras Tanura refinery and</text>
+    <text x="48" y="682" class="body">Riyadh's financial district; 11 hurt.</text>
+  </g>
+
+  <!-- Card 4: Americas -->
+  <g>
+    <rect x="520" y="444" width="480" height="252" rx="10" fill="#16283f"/>
+    <rect x="520" y="444" width="8" height="252" fill="#6fe3a5"/>
+    <circle cx="572" cy="496" r="30" fill="#6fe3a5" fill-opacity="0.18" stroke="#6fe3a5" stroke-width="2"/>
+    <g transform="translate(554,478)" stroke="#6fe3a5" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M30 8 L48 14 L48 30 C48 42 40 50 30 54 C20 50 12 42 12 30 L12 14 Z"/>
+      <polyline points="22,30 28,36 40,22"/>
+    </g>
+    <text x="616" y="490" class="tag" fill="#6fe3a5">AMERICAS</text>
+    <text x="544" y="564" class="head">Cartagena siege ends:</text>
+    <text x="544" y="596" class="head">all hostages freed</text>
+    <text x="544" y="634" class="body">Colombian special forces storm an</text>
+    <text x="544" y="658" class="body">Éxito supermarket after a day-long</text>
+    <text x="544" y="682" class="body">siege; one gunman killed.</text>
+  </g>
+
+  <!-- Card 5: China -->
+  <g>
+    <rect x="24" y="712" width="480" height="252" rx="10" fill="#16283f"/>
+    <rect x="24" y="712" width="8" height="252" fill="#c99aff"/>
+    <circle cx="76" cy="764" r="30" fill="#c99aff" fill-opacity="0.18" stroke="#c99aff" stroke-width="2"/>
+    <g transform="translate(58,746)" stroke="#c99aff" stroke-width="4" fill="none" stroke-linecap="round">
+      <circle cx="26" cy="26" r="14"/>
+      <line x1="36" y1="36" x2="48" y2="48" stroke-width="5"/>
+    </g>
+    <text x="120" y="758" class="tag" fill="#c99aff">CHINA</text>
+    <text x="48" y="832" class="head">China probes a Politburo</text>
+    <text x="48" y="864" class="head">member for graft</text>
+    <text x="48" y="902" class="body">Shanghai party chief Chen Jining is</text>
+    <text x="48" y="926" class="body">investigated in an anti-graft drive,</text>
+    <text x="48" y="950" class="body">the fourth such inquiry since 2025.</text>
+  </g>
+
+  <!-- Card 6: Europe -->
+  <g>
+    <rect x="520" y="712" width="480" height="252" rx="10" fill="#16283f"/>
+    <rect x="520" y="712" width="8" height="252" fill="#ff9f5a"/>
+    <circle cx="572" cy="764" r="30" fill="#ff9f5a" fill-opacity="0.18" stroke="#ff9f5a" stroke-width="2"/>
+    <g transform="translate(554,746)">
+      <path d="M12 38 L48 38 L42 50 L18 50 Z" fill="#ff9f5a"/>
+      <line x1="30" y1="12" x2="30" y2="38" stroke="#ff9f5a" stroke-width="3"/>
+      <path d="M30 14 L30 34 L44 34 Z" fill="#ff9f5a" opacity="0.7"/>
+    </g>
+    <text x="616" y="758" class="tag" fill="#ff9f5a">EUROPE</text>
+    <text x="544" y="832" class="head">Zelenskiy confirms strike</text>
+    <text x="544" y="864" class="head">on a Russian ship</text>
+    <text x="544" y="902" class="body">Kyiv was behind a drone strike on a</text>
+    <text x="544" y="926" class="body">Russian cargo ship in the Gulf of</text>
+    <text x="544" y="950" class="body">Finland; Norway urges caution.</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="512" y="996" class="foot" text-anchor="middle">Sources: Reuters · Xinhua · AFP — full citations in SOURCES.md</text>
+</svg>
